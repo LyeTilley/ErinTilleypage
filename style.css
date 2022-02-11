@@ -20,6 +20,7 @@
     background-image: no-repeat center fixed; 
 }
 
+
 .contact .content {
     max-width: 800px;
     text-align: center;
@@ -111,6 +112,7 @@
 .retirementPic {
     margin: 40px;
     border-radius: 10%;
+  
 }
 
 .contactForm h2 {
@@ -149,7 +151,10 @@ resize: none;
     color: #666;
 
 
+
 }
+
+
 .contactForm .inputBox input:focus ~ span,
 .contactForm .inputBox input:valid ~ span,
 .contactForm .inputBox textarea:focus ~ span,
