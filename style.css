@@ -99,6 +99,7 @@
     color: white;
     flex-direction: column;
     font-weight: 400;
+    min-width: 240px;
 }
 
 .container .contactInfo .box .text h3 {
