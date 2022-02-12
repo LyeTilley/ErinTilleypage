@@ -39,7 +39,7 @@
 }
 
 .contact .content p {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 32px;
     color: white;
     margin-top: 50px;
@@ -166,6 +166,17 @@ resize: none;
     font-size: 12px;
     transform: translateY (-20px);
 }
+
+p {
+    font-size: 1.3rem;
+}
+
+.bottomPage {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+
 
 
 
