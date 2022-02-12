@@ -79,7 +79,7 @@
     position: relative;
     padding: 20px 0;
     display: flex;
-    animation: slideMe 1s ease-in;
+    animation: slideMe 1.5s ease-in;
 
 }
 
