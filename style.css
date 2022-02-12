@@ -48,7 +48,9 @@
 
 }
 
-
+#mc_embed_signup {
+    border-radius: 5%;
+}
 
 .bottomPage {
     color: rgb(238, 234, 234);
