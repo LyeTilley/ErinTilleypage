@@ -36,7 +36,7 @@
     font-size: 60px;
     font-weight: 500;
     color: white;
-    animation: slideMe .4s ease-in;
+    animation: slideTop .8s ease-in;
 
 }
 
@@ -86,6 +86,12 @@
 @keyframes slideMe {
     0% {
         transform: skewX(53deg) translateX(-500px);
+    }
+}
+
+@keyframes slideTop {
+    0% {
+        transform: skewX(1deg) translateY(-500px);
     }
 }
 
