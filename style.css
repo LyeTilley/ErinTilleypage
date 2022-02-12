@@ -36,8 +36,7 @@
     font-size: 60px;
     font-weight: 500;
     color: white;
-    animation: slideTop 1s ease-in;
-
+    animation: slideMe .7s ease-in;
 }
 
 .contact .content p {
@@ -89,11 +88,7 @@
     }
 }
 
-@keyframes slideTop {
-    0% {
-        transform: skewX(0deg) translateY(-500px);
-    }
-}
+
 
 .container .contactInfo .box .icon {
   height: 60px;
