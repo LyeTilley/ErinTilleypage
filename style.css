@@ -14,13 +14,16 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient( rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49) ), url('ig2.webp');
+    background: linear-gradient( rgba(1, 0, 0, 0.49), rgba(0, 0, 0, 0.59) ), url('ig2.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-image: no-repeat center fixed; 
 }
 
-
+#mc_embed_signup_scroll > h2:nth-child(1) > center:nth-child(1) {
+    color: #3105a8;
+    font-size: 1.6rem;;
+}
 .contact .content {
     max-width: 800px;
     text-align: center;
@@ -45,9 +48,7 @@
 
 }
 
-#mc-embedded-subscribe-form {
-    width: 100%;
-}
+
 
 .bottomPage {
     color: rgb(238, 234, 234);
@@ -63,6 +64,7 @@
     margin-top: 40px ;
 }
 
+
 .container .contactInfo {
     width: 50%;
     display: flex;
@@ -77,13 +79,15 @@
 }
 
 .container .contactInfo .box .icon {
-  
+  height: 60px;
+  min-width: 60px;;
   color: white;
     justify-content: center;
     align-items: center;
-
-    font-size: 2rem;
+    background: #3105a8;
+  font-size: 1.7rem;
     display: flex;
+    border-radius: 50%;
 }
 
 .container .contactInfo .box .text {
@@ -97,7 +101,7 @@
 
 .container .contactInfo .box .text h3 {
     font-weight:  400;
-    color: rgb(236, 236, 238);
+    color: rgb(242, 242, 247);
     margin-bottom: 10px;
     text-transform:  uppercase;
     text-transform: bold;
@@ -109,11 +113,6 @@
     background: white;
 }
 
-.retirementPic {
-    margin: 40px;
-    border-radius: 10%;
-  
-}
 
 .contactForm h2 {
     font-size: 40px;
@@ -153,6 +152,8 @@ resize: none;
 
 
 }
+
+#mc-embedded-subscribe { background-color: #3105a8 !important; } 
 
 
 .contactForm .inputBox input:focus ~ span,
